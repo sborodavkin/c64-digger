@@ -39,3 +39,9 @@ c64-digger has been released by [Hokuto Force](http://www.hokutoforce.c64.org/) 
 * Digger, monsters and Gold are done with sprite animation so they can move smoothly
 * Custom memory layout for linker (sprites and charset graphics are loaded into high memory segments)
 * Compileable with CC65 2.13 and 2.16.
+
+## How to Build
+
+You should have cc65 installed. Preferably you'd have Vice installed too, for the c1541 utility to create the D64 disk image but this isn't mandatory.
+
+Run `./compile.sh` or `compile.bat` on the platform of your preference to get Digger compiled into `digger.prg` and [optionally] `digger.d64`.
